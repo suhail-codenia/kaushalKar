@@ -189,58 +189,58 @@
 
 <div class="info-boxes mx-auto max-w-6xl my-8 px-6 py-6">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div>
+        <div class="info-box">
             <div class="box-title text-center relative">
                 <i class="fa fa-files-o absolute right-4 top-1/2 -translate-y-1/2 bg-white text-red-600 p-3 rounded-full w-12 h-12 flex items-center justify-center"></i>
                 INTRODUCTION
             </div>
-            <div class="bg-white rounded-b-2xl overflow-hidden max-h-72 overflow-y-auto">
+            <div class="info-box__body max-h-72 overflow-y-auto">
                 <ul class="divide-y divide-gray-300">
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">About Us</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">Vision and Mission</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">Organisation Structure</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">Board of Directors</a></li>
+                    <li><a href="#" class="info-box__link">About Us</a></li>
+                    <li><a href="#" class="info-box__link">Vision and Mission</a></li>
+                    <li><a href="#" class="info-box__link">Organisation Structure</a></li>
+                    <li><a href="#" class="info-box__link">Board of Directors</a></li>
                 </ul>
             </div>
         </div>
-        <div>
+        <div class="info-box">
             <div class="box-title text-center relative">
                 <i class="fa fa-files-o absolute right-4 top-1/2 -translate-y-1/2 bg-white text-red-600 p-3 rounded-full w-12 h-12 flex items-center justify-center"></i>
                 SERVICES AND SCHEMES
             </div>
-            <div class="bg-white rounded-b-2xl overflow-hidden max-h-72 overflow-y-auto">
+            <div class="info-box__body max-h-72 overflow-y-auto">
                 <ul class="divide-y divide-gray-300">
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">Chief Minister's Kaushalya Karnataka Yojane (CMKKY)</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">NAL JAL Mitra</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">Pradhan Mantri Kaushal Vikas Yojana (PMKVY)</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">International Migration Centre Karnataka</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">SANKALP & Other Special Initiatives</a></li>
+                    <li><a href="#" class="info-box__link">Chief Minister's Kaushalya Karnataka Yojane (CMKKY)</a></li>
+                    <li><a href="#" class="info-box__link">NAL JAL Mitra</a></li>
+                    <li><a href="#" class="info-box__link">Pradhan Mantri Kaushal Vikas Yojana (PMKVY)</a></li>
+                    <li><a href="#" class="info-box__link">International Migration Centre Karnataka</a></li>
+                    <li><a href="#" class="info-box__link">SANKALP & Other Special Initiatives</a></li>
                 </ul>
             </div>
         </div>
-        <div>
+        <div class="info-box">
             <div class="box-title text-center relative">
                 <i class="fa fa-files-o absolute right-4 top-1/2 -translate-y-1/2 bg-white text-red-600 p-3 rounded-full w-12 h-12 flex items-center justify-center"></i>
                 Online Services
             </div>
-            <div class="bg-white rounded-b-2xl overflow-hidden max-h-72 overflow-y-auto">
+            <div class="info-box__body max-h-72 overflow-y-auto">
                 <ul class="divide-y divide-gray-300">
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">Training Provider Registration</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">Assessment Agency Registration</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">Registration of Candidate for Training</a></li>
+                    <li><a href="#" class="info-box__link">Training Provider Registration</a></li>
+                    <li><a href="#" class="info-box__link">Assessment Agency Registration</a></li>
+                    <li><a href="#" class="info-box__link">Registration of Candidate for Training</a></li>
                 </ul>
             </div>
         </div>
-        <div>
+        <div class="info-box">
             <div class="box-title text-center relative">
                 <i class="fa fa-files-o absolute right-4 top-1/2 -translate-y-1/2 bg-white text-red-600 p-3 rounded-full w-12 h-12 flex items-center justify-center"></i>
                 DOCUMENTS
             </div>
-            <div class="bg-white rounded-b-2xl overflow-hidden max-h-72 overflow-y-auto">
+            <div class="info-box__body max-h-72 overflow-y-auto">
                 <ul class="divide-y divide-gray-300">
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">Usage of SKILL INDIA Logo</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">C C T V Guidelines</a></li>
-                    <li><a href="#" class="block px-4 py-3 bg-blue-50 text-sm text-gray-800 hover:bg-blue-100 hover:border-l-2 hover:border-blue-800">D S D O Details</a></li>
+                    <li><a href="#" class="info-box__link">Usage of SKILL INDIA Logo</a></li>
+                    <li><a href="#" class="info-box__link">C C T V Guidelines</a></li>
+                    <li><a href="#" class="info-box__link">D S D O Details</a></li>
                 </ul>
             </div>
         </div>
