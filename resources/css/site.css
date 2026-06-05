@@ -142,19 +142,74 @@
 
 body.dark-mode-area.dark-mode {
     background-color: #121212;
-    color: #fff;
+    color: #e8e8e8;
+    color-scheme: dark;
 }
 
-body.dark-mode-area.dark-mode .bg-white {
+body.dark-mode-area.dark-mode .bg-white,
+body.dark-mode-area.dark-mode .bg-gray-50,
+body.dark-mode-area.dark-mode .bg-gray-100 {
     background-color: #1e1e1e !important;
-    color: #fff;
+    color: #e8e8e8;
+}
+
+body.dark-mode-area.dark-mode .bg-gray-200 {
+    background-color: #3a3a3a !important;
+}
+
+body.dark-mode-area.dark-mode .bg-blue-50 {
+    background-color: #2a3040 !important;
+}
+
+body.dark-mode-area.dark-mode .info-boxes {
+    background-color: #3a4552;
+}
+
+body.dark-mode-area.dark-mode .border-gray-200 {
+    border-color: #404040 !important;
+}
+
+body.dark-mode-area.dark-mode .divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+    border-color: #404040;
 }
 
 body.dark-mode-area.dark-mode .text-black,
+body.dark-mode-area.dark-mode .text-gray-500,
 body.dark-mode-area.dark-mode .text-gray-600,
 body.dark-mode-area.dark-mode .text-gray-700,
-body.dark-mode-area.dark-mode .text-gray-800 {
+body.dark-mode-area.dark-mode .text-gray-800,
+body.dark-mode-area.dark-mode .text-indigo-600,
+body.dark-mode-area.dark-mode [class*='blue-dark'] {
     color: #e8e8e8 !important;
+}
+
+body.dark-mode-area.dark-mode h1,
+body.dark-mode-area.dark-mode h2,
+body.dark-mode-area.dark-mode h3,
+body.dark-mode-area.dark-mode h4,
+body.dark-mode-area.dark-mode h5,
+body.dark-mode-area.dark-mode h6,
+body.dark-mode-area.dark-mode p,
+body.dark-mode-area.dark-mode li,
+body.dark-mode-area.dark-mode marquee {
+    color: inherit;
+}
+
+body.dark-mode-area.dark-mode .navbar-sec .sub-mnu {
+    background-color: #2a2a2a !important;
+}
+
+body.dark-mode-area.dark-mode .navbar-sec .sub-mnu .nav-link {
+    color: #e8e8e8 !important;
+}
+
+body.dark-mode-area.dark-mode .navbar-sec .sub-mnu .nav-link:hover {
+    background: #3a3a3a;
+    color: #ff8a8a !important;
+}
+
+body.dark-mode-area.dark-mode .info-boxes .box-title i.bg-white {
+    background-color: #1e1e1e !important;
 }
 
 .sticky-header {
@@ -312,12 +367,58 @@ body.dark-mode-area.dark-mode .text-gray-800 {
     border-radius: 20px;
 }
 
+.info-box {
+    border-radius: 20px;
+    overflow: hidden;
+    background: #fff;
+}
+
 .info-boxes .box-title {
     background: linear-gradient(90deg, var(--primary) 9%, var(--primary-dark) 120%);
     color: #fff;
     padding: 27px 0;
     font-size: 22px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 0;
+}
+
+.info-box__body {
+    background: #eff6ff;
+}
+
+.info-box__link {
+    display: block;
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #1f2937;
+    text-decoration: none;
+    background: #eff6ff;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.info-box__link:hover {
+    background: #dbeafe;
+    border-left: 2px solid #1e40af;
+    padding-left: calc(1rem - 2px);
+}
+
+body.dark-mode-area.dark-mode .info-box {
+    background: #2a3040;
+}
+
+body.dark-mode-area.dark-mode .info-box__body,
+body.dark-mode-area.dark-mode .info-box__link {
+    background: #2a3040;
+    color: #e8e8e8;
+}
+
+body.dark-mode-area.dark-mode .info-box__link:hover {
+    background: #343d52;
+    border-left-color: #ff8a8a;
+}
+
+body.dark-mode-area.dark-mode .info-box .divide-gray-300 > :not([hidden]) ~ :not([hidden]) {
+    border-color: #404040;
 }
 
 .footer-section {
